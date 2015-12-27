@@ -46,17 +46,17 @@ table {
   border-spacing: 0; }
 
 a {
-  color: black;
+  color: #222;
   text-decoration: none; }
 
 .link {
-  color: #457585; }
+  color: #40AAA6; }
   .link:hover {
     text-decoration: underline; }
 
 body #content {
-  font-family: 'Open Sans', sans-serif;
-  color: black;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #222;
   width: 90%;
   max-width: 1000px;
   margin: 20px auto; }
@@ -82,10 +82,14 @@ body #content {
         transform: translateX(0px); }
         body #content header #nav ul li:hover span {
           opacity: 1; }
+      body #content header #nav ul li a:hover {
+        color: #40AAA6; }
     body #content header #nav .onpage {
-      color: #457585; }
+      color: #40AAA6; }
   body #content hr {
     margin-bottom: 20px; }
+  body #content #cover {
+    max-width: 100%; }
   body #content .discog {
     margin: 2em 0; }
     body #content .discog img {

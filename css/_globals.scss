@@ -10,7 +10,7 @@ a {
 }
 
 body #content {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: $fontColor;
   width: 90%;
   max-width: 1000px;
@@ -44,6 +44,11 @@ body #content {
                  opacity: 1;
                }
              }
+             a {
+                &:hover {
+                  color: $secondaryColor;
+                }
+             }
           }
           .onpage {
             color: $secondaryColor;
@@ -53,6 +58,9 @@ body #content {
     //end of header
     hr {
       margin-bottom: 20px;
+    }
+    #cover {
+      max-width: 100%;
     }
     .discog {
       margin: 2em 0;
