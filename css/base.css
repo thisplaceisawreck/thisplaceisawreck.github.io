@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.link {
+  color: #457585; }
+  .link:hover {
+    text-decoration: underline; }
+
+body #content {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto; }
+  body #content header a h1 {
+    display: inline-block;
+    font-size: 2em;
+    margin: 5px 0 15px 0;
+    transition: all 1s; }
+  body #content header #nav {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 200px; }
+    body #content header #nav ul li {
+      margin-bottom: 5px;
+      transition: all 0.5s;
+      transform: translateX(-16px); }
+      body #content header #nav ul li span {
+        opacity: 0;
+        transition: all 0.5s; }
+        body #content header #nav ul li span img {
+          width: 12px; }
+      body #content header #nav ul li:hover {
+        transform: translateX(0px); }
+        body #content header #nav ul li:hover span {
+          opacity: 1; }
+    body #content header #nav .onpage {
+      color: #457585; }
+  body #content hr {
+    margin-bottom: 20px; }
+  body #content .discog {
+    margin: 2em 0; }
+    body #content .discog img {
+      margin-top: 1em;
+      width: 100%;
+      max-width: 600px; }
+  body #content .info {
+    line-height: 1.15em;
+    margin: 2em 0;
+    width: 100%;
+    max-width: 600px; }
+    body #content .info img {
+      width: 100%;
+      margin: 20px 0 5px 0; }
+    body #content .info span {
+      color: #bdbdbd;
+      font-size: 0.9em; }
+
+/*# sourceMappingURL=base.css.map */
