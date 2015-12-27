@@ -76,4 +76,24 @@ body #content {
           font-size: 0.9em;
         }
     }
+    .blogpost {
+      line-height: $lineHeight;
+      margin: 2em 0;
+      width: 100%;
+      max-width: 600px;
+      border-bottom: solid 1px $textAccentColor;
+        h2 {
+          font-size: 1.25em;
+          margin-bottom: 1em;
+        }
+        img {
+          width: 100%;
+          margin: 20px 0 5px 0;
+        }
+        span {
+          font-size: 0.8em;
+          font-style: italic;
+          color: $textAccentColor;
+        }
+    }
 }

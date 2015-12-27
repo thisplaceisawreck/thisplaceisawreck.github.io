@@ -103,5 +103,21 @@ body #content {
     body #content .info span {
       color: #bdbdbd;
       font-size: 0.9em; }
+  body #content .blogpost {
+    line-height: 1.15em;
+    margin: 2em 0;
+    width: 100%;
+    max-width: 600px;
+    border-bottom: solid 1px #bdbdbd; }
+    body #content .blogpost h2 {
+      font-size: 1.25em;
+      margin-bottom: 1em; }
+    body #content .blogpost img {
+      width: 100%;
+      margin: 20px 0 5px 0; }
+    body #content .blogpost span {
+      font-size: 0.8em;
+      font-style: italic;
+      color: #bdbdbd; }
 
 /*# sourceMappingURL=base.css.map */
