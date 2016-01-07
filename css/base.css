@@ -92,7 +92,7 @@ body #content {
     max-width: 100%; }
   body #content .discog {
     margin: 2em 0; }
-    body #content .discog img {
+    body #content .discog img, body #content .discog .bandcamp {
       margin-top: 1em;
       width: 100%;
       max-width: 600px; }
