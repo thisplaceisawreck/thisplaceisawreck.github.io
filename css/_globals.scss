@@ -8,7 +8,6 @@ a {
       text-decoration: underline;
     }
 }
-
 body #content {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: $fontColor;
@@ -51,7 +50,8 @@ body #content {
              }
           }
           .onpage {
-            color: $secondaryColor;
+            // color: $secondaryColor;
+            font-weight: bold;
           }
       }
     }
@@ -64,7 +64,7 @@ body #content {
     }
     .discog {
       margin: 2em 0;
-      img, .bandcamp {
+      img, .bandcamp, iframe {
         margin-top: 1em;
         width: 100%;
         max-width: 600px;
@@ -82,6 +82,7 @@ body #content {
         span {
           color: $textAccentColor;
           font-size: 0.9em;
+          font-style: oblique;
         }
     }
     .blogpost {
