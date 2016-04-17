@@ -45,84 +45,65 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+html {
+  background: url("../img/asss-beacon.jpg") no-repeat center center fixed;
+  top: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000; }
+
 a {
-  color: #222;
-  text-decoration: none; }
+  transition: all 0.25s;
+  color: #ededed; }
+  a:hover {
+    opacity: 0.7; }
 
-.link {
-  color: #428bca; }
-  .link:hover {
-    text-decoration: underline; }
+body {
+  font-family: 'Droid Sans Mono'; }
 
-body #content {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  color: #222;
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  top: 666px; }
+
+#container {
+  margin: auto;
+  margin-top: 0;
+  padding: 0;
+  max-width: 1000px; }
+
+#discog {
+  margin-left: 1em; }
+  #discog li {
+    margin: 1em 0; }
+
+.col {
+  position: relative;
+  display: block;
+  padding: 1em;
+  top: 1000px;
   width: 90%;
-  max-width: 1000px;
-  margin: 20px auto; }
-  body #content header a h1 {
-    display: inline-block;
-    font-size: 2em;
-    margin: 5px 0 15px 0;
-    transition: all 1s; }
-  body #content header #nav {
-    margin: 10px 0;
-    width: 100%;
-    max-width: 200px; }
-    body #content header #nav ul li {
-      margin-bottom: 5px;
-      transition: all 0.5s;
-      transform: translateX(-16px); }
-      body #content header #nav ul li span {
-        opacity: 0;
-        transition: all 0.5s; }
-        body #content header #nav ul li span img {
-          width: 12px; }
-      body #content header #nav ul li:hover {
-        transform: translateX(0px); }
-        body #content header #nav ul li:hover span {
-          opacity: 1; }
-      body #content header #nav ul li a:hover {
-        color: #428bca; }
-    body #content header #nav .onpage {
-      font-weight: bold; }
-  body #content hr {
-    margin-bottom: 20px; }
-  body #content #cover {
-    max-width: 100%; }
-  body #content .discog {
-    margin: 2em 0; }
-    body #content .discog img, body #content .discog .bandcamp, body #content .discog iframe {
-      margin-top: 1em;
-      width: 100%;
-      max-width: 600px; }
-  body #content .info {
-    line-height: 1.15em;
-    margin: 2em 0;
-    width: 100%;
-    max-width: 600px; }
-    body #content .info img {
-      width: 100%;
-      margin: 20px 0 5px 0; }
-    body #content .info span {
-      color: #bdbdbd;
-      font-size: 0.9em;
-      font-style: oblique; }
-  body #content .blogpost {
-    line-height: 1.15em;
-    margin: 2em 0;
-    width: 100%;
-    max-width: 600px;
-    border-bottom: solid 1px #bdbdbd; }
-    body #content .blogpost h2 {
-      font-size: 1.25em;
-      margin-bottom: 1em; }
-    body #content .blogpost img {
-      width: 100%;
-      margin: 20px 0 5px 0; }
-    body #content .blogpost span {
-      font-size: 0.8em;
-      font-style: italic;
-      color: #bdbdbd; }
+  margin: auto;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff; }
+  @media screen and (max-width: 800px) {
+    .col {
+      width: 100%; } }
+
+#pic {
+  position: relative;
+  top: 1000px;
+  width: 100%; }
+
+#clear {
+  clear: both; }
 
 /*# sourceMappingURL=base.css.map */
