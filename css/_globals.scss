@@ -8,6 +8,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background-color: #000;
+  background-attachment: fixed;
 }
 a {
   transition: all 0.25s;
@@ -24,7 +25,6 @@ h1 {
   text-align: center;
   font-size: 2em;
   color: #fff;
-  width: 100%;
   margin: auto;
   top: 666px;
 }
