@@ -54,8 +54,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #000;
-  background-attachment: fixed; }
+  background-color: #000; }
 
 a {
   transition: all 0.25s;
@@ -71,8 +70,13 @@ h1 {
   text-align: center;
   font-size: 2em;
   color: #fff;
+  width: 50px;
   margin: auto;
   top: 666px; }
+  @media (max-width: 400px) {
+    h1 {
+      left: 50%;
+      margin-left: -24px; } }
 
 #container {
   margin: auto;
