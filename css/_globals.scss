@@ -1,14 +1,18 @@
 html {
-  background: url("../img/asss-beacon.jpg") no-repeat center center fixed;
-  top: 0;
-  padding: 0;
-  margin: 0;
+  background-color: #000;
+  width: 100%;
+}
+.cover {
+  background: url("../img/asss-beacon.jpg");
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  background-color: #000;
+  height: 100%;
   width: 100%;
+  position: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 a {
   transition: all 0.25s;
