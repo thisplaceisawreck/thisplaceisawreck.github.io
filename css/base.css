@@ -75,13 +75,12 @@ h1 {
   text-align: center;
   font-size: 2em;
   color: #fff;
-  width: 50px;
+  width: 100%;
   margin: auto;
   top: 666px; }
-  @media (max-width: 400px) {
+  @media screen and (max-width: 400px) {
     h1 {
-      left: 50%;
-      margin-left: -24px; } }
+      top: 500px; } }
 
 #container {
   margin: auto;
@@ -97,7 +96,6 @@ h1 {
 .col {
   position: relative;
   display: block;
-  padding: 1em;
   top: 1000px;
   width: 90%;
   margin: auto;
@@ -106,11 +104,20 @@ h1 {
   @media screen and (max-width: 800px) {
     .col {
       width: 100%; } }
+  @media screen and (max-width: 400px) {
+    .col {
+      top: 800px; } }
+  .col p {
+    padding: 1em; }
 
 #pic {
   position: relative;
   top: 1000px;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
+  @media screen and (max-width: 400px) {
+    #pic {
+      top: 800px; } }
 
 #clear {
   clear: both; }
