@@ -71,16 +71,13 @@ body {
   font-family: 'Droid Sans Mono'; }
 
 h1 {
-  position: relative;
+  position: absolute;
   text-align: center;
   font-size: 2em;
   color: #fff;
   width: 100%;
   margin: auto;
-  top: 666px; }
-  @media screen and (max-width: 400px) {
-    h1 {
-      top: 500px; } }
+  top: 90%; }
 
 #container {
   margin: auto;
