@@ -1,8 +1,8 @@
 <?php 
 
-myArray = [];
+$myArray = [];
 
-myArray[101] = [
+$myArray[101] = [
   "number" => "001",
   "title" => "Warm Up"
 ];
