@@ -1,4 +1,8 @@
+
+
 # ASSS.ONLINE
+
+![](img/asss-S1-crop.jpg)
 
 This is a github-hosted website for the Portland based industrial techno band, ASSS
 
